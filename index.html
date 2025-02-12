@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="./build/tailwind.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="./build/tailwind.css" />
+  <link rel="stylesheet" href="./build/app.css" />
+</head>
+<body>
+    <!--
+  - Cai dat Nodejs
+  - npm install -g
+  - npm init -y (tao ra package.json)
+  - npm install -D tailwindcss postcss autoprefixer vite (tao ra node_modules)
+  - npx tailwindcss init -p (tao ra tailwind config va postcss config)
+  (mo backage.json doi thanh 
+  "scripts": {
+    "dev": "vite"
+  },)
+  (tao thu muc css/tailwind.css)
+  - npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+  - npm run dev
+  - npx tailwindcss -i css/tailwind.css -o build/tailwind.css -- watch
+  (chay sau khi customize tailwind.config)
+    -->
+        <div class="pt-12">
+            <h1 class="text-center text-dark text-4xl font-light mb-35">Live anywhere</h1>
+            <h2 class="text-center font-light text-xl text-gray-500 mb-10">Keep calm & travel on</h2>
+            <div class="grid grid-cols-3 gap-x-8 max-w-6xl mx-auto">
+                <div>
+                  <div class="h-96 mb-5">
+                <img src="https://plus.unsplash.com/premium_photo-1728731295527-b8492d105771?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt=""
+                class="w-full h-full rounded-lg object-cover"/>
+                 <h3 class="text-center font-medium text-xl mb-3">Enjoy the greate cold</h3>
+                 <span class="block text-center text-gray-500 text-sm">6,789 properties</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="h-96 mb-5">
+                  <img src="https://images.unsplash.com/photo-1728826843838-308b101f2a8a?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                  alt=""
+                  class="w-full h-full rounded-lg object-cover"/>
+                   <h3 class="text-center font-medium text-xl mb-3">Pick the earliest sun</h3>
+                   <span class="block text-center text-gray-500 text-sm">6,789 properties</span>
+                      </div>
+                  </div>
+                  <div>
+                    <div class="h-96 mb-5">
+                  <img src="https://images.unsplash.com/photo-1727949649305-45f2ec799bd8?q=80&w=3435&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                  alt=""
+                  class="w-full h-full rounded-lg object-cover"/>
+                   <h3 class="text-center font-medium text-xl mb-3">Unique stay</h3>
+                   <span class="block text-center text-gray-500 text-sm">6,789 properties</span>
+                      </div>
+                  </div>
+            </div>
+            
+          </div>
+    
+  
+</body>
+</html>
