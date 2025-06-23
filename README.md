@@ -1,4 +1,4 @@
-# Getting Started with HTML/CSS/Bootstrap/Tailwind/JavaScript Project
+# Getting Started with Project
 
 This project is built using standard HTML, CSS, Bootstrap for components, Tailwind CSS for utility-first styling, and vanilla JavaScript for interactivity.
 
